@@ -1,0 +1,76 @@
+header {
+	font-size: 100%;
+	top: 0px;
+	height: 70px;
+	position: fixed;
+	width: 100%;
+	background-color: grey;
+}
+
+#spacer {
+	margin-top: 80px;
+}
+
+header h1 {
+	float: left;
+	margin-left: 5%;
+}
+
+header h2 {
+	float: right;
+	margin-right: 15%;
+}
+.categorydiv {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 15%;
+	margin-top: 5%;
+	font-size: 50%;
+	float: left;
+}
+
+.spent {
+	display: none;
+}
+
+.category h1 {
+	margin-left: 0%;
+	float: left;
+}
+
+.category h2 {
+	position: inline-block;
+	font-size: 200%;
+	width: 80;
+	margin-right: 5%;
+	float: right;
+}
+
+.category p {
+	float: right;
+	font-size: 170%;
+	text-align: center;
+	padding: 5px;
+	box-sizing: border-box;
+	border-color: solid green;
+	border-width: 3px;
+	background: green;
+	width: 70%;
+	height: 30px;
+	margin-right: 10%;
+}
+
+
+.category button {
+	width: 100px;
+	display: inline-block;
+	top: 0px;
+}
+
+/*.spent {
+	margin-top: 20px;
+	margin-right: 0%;
+	float: right;
+	font-size: 200%;
+	width: 100px;
+}*/
