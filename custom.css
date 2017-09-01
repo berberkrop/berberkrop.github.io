@@ -23,8 +23,8 @@ header h2 {
 .categorydiv {
 	width: 80%;
 	margin-left: 10%;
-	margin-right: 15%;
-	margin-top: 5%;
+	margin-right: 5%;
+	margin-top: 3%;
 	font-size: 50%;
 	float: left;
 }
@@ -33,38 +33,55 @@ header h2 {
 	display: none;
 }
 
+.category {
+	float: left;
+	width: 100%;
+}
+
 .category h1 {
 	margin-left: 0%;
+	font-size: 300%;
 	float: left;
 }
 
 .category h2 {
-	position: inline-block;
-	font-size: 200%;
-	width: 80;
+	float-right;
+	font-size: 300%;
+	width: 5%;
 	margin-right: 5%;
 	float: right;
 }
 
 .category p {
-	float: right;
 	font-size: 170%;
 	text-align: center;
 	padding: 5px;
 	box-sizing: border-box;
 	border-color: solid green;
 	border-width: 3px;
-	background: green;
-	width: 70%;
+	/*background: lightblue;
+	/*width: 70%;*/
 	height: 30px;
-	margin-right: 10%;
+	float: left;
 }
 
+.percentage {
+	background-color: green;
+	margin-left: 10%;
+	}
+
+.remainingPercentage {
+	background-color: grey;
+	box-sizing: border-box;
+	float: left;
+	visibility: hidden;
+}
 
 .category button {
-	width: 100px;
-	display: inline-block;
+	width: auto;
+	float: left;
 	top: 0px;
+	font-size: 180%;
 }
 
 /*.spent {
